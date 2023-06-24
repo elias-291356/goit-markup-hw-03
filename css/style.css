@@ -17,6 +17,7 @@
         --text-color: #434455;
         --hover-color: #404bbf;
         --white-color: #ffffff;
+
     }
 
     html {
@@ -33,6 +34,8 @@
         font-family: "Roboto", sans-serif;
         color: #434455;
         background-color: var(--white-color);
+
+
 
     }
 
@@ -55,18 +58,21 @@
     /* main-page header */
 
     .container {
-        /* outline: 2px solid tomato; */
+        outline: 2px solid tomato;
         width: 1158px;
         padding-left: 12px;
         padding-right: 12px;
         margin-right: auto;
         margin-left: auto;
+
     }
 
     .site-nav {
         display: flex;
-        height: 72px;
-        align-items: center;
+        justify-content: space-between;
+        padding-top: 24px;
+        padding-bottom: 24px;
+
     }
 
     .logo {
@@ -80,16 +86,26 @@
     }
 
     .logo-span-header {
+
         color: var(--primary-color);
         font-family: "Raleway"sans-serif;
         margin-right: 76px;
     }
+
+
 
     .site-nav-items {
         display: flex;
         justify-content: space-between;
         min-width: 261px;
         margin-right: 332px;
+
+
+    }
+
+
+    .site-nav-items:last-child {
+        margin-right: 0px;
     }
 
     .nav-items {
@@ -98,6 +114,7 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--primary-color);
+
     }
 
     .nav-items:hover,
@@ -122,6 +139,8 @@
         display: flex;
         min-width: 350px;
         justify-content: space-between;
+        padding-top: 24px;
+        padding-bottom: 24px;
     }
 
     .address-info {
@@ -143,24 +162,26 @@
     /* main-page banner */
     .section-banner {
         background-color: var(--primary-color);
-        text-align: center;
-        height: 600px;
-        display: flex;
-        align-items: center;
     }
 
     .section {
         margin-bottom: 120px;
     }
 
+
     .caption {
+        padding-top: 188px;
+        padding-left: 310px;
+        padding-right: 310px;
+        padding-bottom: 48px;
         font-size: 56px;
         line-height: 1.07;
-        margin-bottom: 48px;
         letter-spacing: 0.02em;
         color: var(--white-color);
-
     }
+
+
+
 
     .btn-banner {
         background-color: var(--accent-color);
@@ -173,7 +194,6 @@
         cursor: pointer;
         border-radius: 4px;
         min-width: 169px;
-        min-height: 56px;
         padding: 16px 32px;
         border: transparent;
     }
@@ -182,8 +202,16 @@
     .btn-banner:focus {
         background-color: var(--hover-color);
         color: var(--white-color);
-
     }
+
+    .button-wrapp {
+        padding-left: 480px;
+        padding-right: 480px;
+        padding-bottom: 188px;
+    }
+
+
+
 
     /* -main-page our-goal */
     .headline {
@@ -198,7 +226,7 @@
 
     .items-our-goal {
         display: flex;
-        padding-top: 120px;
+        margin-top: 120px;
     }
 
     .title {
@@ -228,16 +256,25 @@
     /* main-page our team  */
     .section-employee {
         background-color: var(--secondary-color);
-        min-height: 732px;
         display: flex;
         align-items: center;
+    }
 
+    .headline-employee {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--primary-color);
+        padding-top: 120px;
+        padding-bottom: 72px;
     }
 
     .items-employee {
         display: flex;
         justify-content: space-between;
-        width: 1128px;
+        padding-bottom: 120px;
 
     }
 
@@ -295,7 +332,6 @@
 
     .content-items {
         display: flex;
-
         flex-wrap: wrap;
         justify-content: space-between;
 
