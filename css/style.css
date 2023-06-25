@@ -164,14 +164,9 @@
         color: var(--hover-color);
     }
 
-
-
     .address-link:hover {
         color: var(--hover-color);
     }
-
-
-
 
     /* main-page banner */
     .section-banner {
@@ -185,7 +180,6 @@
         margin-bottom: 120px;
     }
 
-
     .caption {
 
         width: 500px;
@@ -196,9 +190,6 @@
         letter-spacing: 0.02em;
         color: var(--white-color);
     }
-
-
-
 
     .btn-banner {
         background-color: var(--accent-color);
@@ -388,44 +379,44 @@
 
 
     .container-items {
-        /* outline: 2px solid tomato; */
+
         width: 1150px;
+        padding-right: 10px;
+        padding-left: 10px;
         margin-right: auto;
         margin-left: auto;
-        /* margin-bottom: 120px; */
+
     }
 
     .content-items {
         display: flex;
         flex-wrap: wrap;
         padding-bottom: 120px;
-
-
     }
 
-    .flex-element {
-        /* height: 420px; */
+    /* .flex-element {
+
         width: 360px;
         margin-right: 35px;
-
-        /* margin-left: auto; */
-        /* padding-bottom: 30px; */
-
-
-    }
+    } */
 
     .items {
         outline: 1px solid #E7E9FC;
         width: 360px;
         margin-bottom: 48px;
+        margin-right: 23px;
     }
 
-
-
-
-    .flex-element:nth-child(3n) {
+    .items:nth-child(3n) {
         margin-right: 0px;
     }
+
+
+
+
+    /* .flex-element:nth-child(3n) {
+        margin-right: 0px;
+    } */
 
     .portfolio-headline {
         font-weight: 500;
